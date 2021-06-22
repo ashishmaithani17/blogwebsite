@@ -1,0 +1,24 @@
+.contact{
+    height: 100vh;
+    margin-top:32px;
+    /* display: block; */
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(151, 151, 228); */
+}
+.contact::after{
+    content:"";
+    background-image: url(../img/whoooa.jpg);
+    position: absolute;
+    top: 0;
+    width: 72%;
+    height: inherit;
+    opacity: 0.2;  
+    margin-left: 180px;
+    /* border-radius: 211px; */
+    z-index: -1;
+}
+.contact-btn{
+ margin-left: 66px;
+}
